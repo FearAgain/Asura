@@ -6,7 +6,7 @@ StartMouseY := 0
 macVersion := "v1.5"
 
 Gui, Add, Text, x10 y10 w200 h30, Welcome to Myvl's Macro (Version: %macVersion%) :>
-Gui, Add, Text, x10 y25 w200 h30, Make sure you have watched the tutorial on how to set up the macro!
+Gui, Add, Text, x10 y25 w200 h30, I no longer work on this project dont dm me about it.
 Gui, Add, Text, x10 y40 w200 h30, Also make sure you have full Hunger before starting the macro!
 Gui, Add, Text, x10 y55 w200 h30, Controls:
 Gui, Add, Text, x10 y70 w200 h30, K = Start Macro
@@ -79,7 +79,7 @@ Train:
 if (ScriptActive) {
     Sleep, 300
     StartTime := A_TickCount
-    ToolTip "Fear Ava Ryu Bud."
+    ToolTip "Big Opp Drop."
     Loop
     {
         ElapsedTime := A_TickCount - StartTime
